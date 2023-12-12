@@ -1,7 +1,8 @@
 #map {
     width: 100%;
     /* compute height 100% - 100px */
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
+    height: 100vh;
 }
 
 
@@ -271,7 +272,7 @@ Mobile optimization
     .home-overlay-form-container{
         display: none;
         width: auto;
-        /* transform: translateY(-45%) !important; */
+        transform: translateY(-5%) !important;
         position: fixed !important;
         bottom: 0 !important;
 
@@ -372,9 +373,9 @@ Mobile optimization
         width: auto;
     }
 
-    .uk-inline, .uk-first-column{
+    /* .uk-inline, .uk-first-column{
         width: 100% !important;
-    }
+    } */
 
     .uk-card{
         height: auto;
@@ -399,5 +400,4 @@ Mobile optimization
             font-size: small !important;
         }
     }
-
 }
